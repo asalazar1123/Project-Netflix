@@ -1,0 +1,553 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/** INICIO NAV **/
+
+nav .navbar-brand img {
+    width: 160px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+.dropdown-toggle {
+    background-color: rgba(22, 22, 22, 0.7) !important;
+}
+
+.nav-item a {
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 0.25rem;
+    min-height: 2rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: helvetica;
+    position: relative;
+}
+
+.navbar-dark {
+    background-color: transparent;
+}
+
+#inicio {
+    margin-left: 8px;
+}
+
+select {
+    height: 32px;
+}
+
+.arriba {
+    background-size: cover;
+    background-image: url(../img/fondo-arriba.png);
+    height: 700px;
+    width: auto;
+    background-position: center;
+    border-bottom: 10px solid rgba(40, 40, 40);
+}
+
+
+/** FIN NAV **/
+
+/** INICIO ABAJO HEADER **/
+
+#contenido {
+    text-align: center;
+    color: white;
+    margin-top: 280px;
+}
+
+#titulo1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#titulo2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#titulo3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 30px;
+}
+
+#email {
+    background-color: rgba(22, 22, 22, 0.7);
+    width: 27%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#Comenzar {
+    background-color: rgb(229, 9, 20);
+    padding: 12px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+#tv {
+    background-color: black;
+    height: 584px;
+    border-bottom: 10px solid rgba(40, 40, 40);
+}
+
+#tv h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-top: 190px;
+}
+
+#tv span {
+    margin-top: 190px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+
+}
+
+/** ABAJO HEADER **/
+
+/** INICIO SECTION DESCARGA **/
+
+#mobile span {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#mobile-S {
+    color: white;
+    height: 584px;
+    background-color: black;
+    border-bottom: 10px solid rgba(40, 40, 40);
+}
+
+#mobile img {
+    width: 100%;
+    margin-bottom: 160px;
+    position: sticky;
+}
+
+#mobile2 {
+    margin-top: 220px;
+}
+
+#descarga {
+    background-color: rgba(22, 22, 22);
+    width: 351px;
+    height: 133px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 141px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    z-index: 1;
+}
+
+#descarga p {
+    font-size: 21px;
+    margin-top: 30px;
+    margin-left: 132px;
+}
+
+#descarga span {
+    font-size: 15px;
+    margin-left: 132px;
+    color: blue;
+}
+
+#descarga img {
+    position: absolute;
+    width: 23%;
+    margin-top: 8px;
+    margin-left: 39px;
+}
+
+/** FIN DESCARGA **/
+
+
+/** SECTION DONDE QUIERAS **/
+
+#dondequieras {
+    color: white;
+    height: 584px;
+    background-color: black;
+    border-bottom: 10px solid rgba(40, 40, 40);
+}
+
+#dondequieras #video {
+    margin-top: 100px;
+}
+
+#dondequieras #dispositivos {
+    margin-top: 180px;
+}
+
+#dondequieras span {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/** FIN SECTION DONDE QUIERAS **/
+
+/** SECTION NIÑOS **/
+
+#ninos {
+    color: white;
+    height: 584px;
+    background-color: black;
+    border-bottom: 10px solid rgba(40, 40, 40);
+}
+
+#ninos span {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#fotos-ninos {
+    margin-top: 70px;
+}
+
+#ninos2 {
+    margin-top: 190px;
+}
+
+/** FIN SECTION NIÑOS **/
+
+
+/** FAQ **/
+
+#faq {
+    color: white;
+    height: 1115px;
+    background-color: black;
+    border-bottom: 10px solid rgba(40, 40, 40);
+}
+
+#titulo-faq h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+/** ACORDION FAQ **/
+
+.accordion {
+    width: 70% !important;
+    border-width: 0px !important;
+    margin-bottom: 70px;
+}
+
+/** .ACCORDION-ITEM SOLO ESTILIZA DIV GENERAL PRIMARIO **/
+.accordion-item {
+    border: 0px solid transparent !important;
+    margin-top: 5px !important;
+}
+
+
+/** .ACCORDION-body SOLO ESTILIZA CONTENIDO DIV **/
+.accordion-body {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/** este solo estiliza el elemento dentro del div **/
+.accordion-button {
+    background-color: rgb(45, 45, 45) !important;
+    color: white !important;
+    border-radius: 0px !important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #000000 !important;
+    font-size: 1.5rem !important;
+    height: 100px;
+}
+
+.accordion-button:hover {
+    background-color: rgb(65, 65, 65) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/x-lg.svg) !important;
+    filter: invert(1);
+    transition: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(45, 45, 45) !important;
+    color: white
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 0px !important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #000000 !important;
+}
+
+.accordion-button::after {
+    background-image: url(../img/plus-lg.svg) !important;
+    filter: invert(1);
+    transition: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+/** FIN ACORDION FAQ **/
+
+.debajo-faq {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.debajo-faq input {
+    margin-top: 20px;
+}
+
+
+/** INICIO FOOTER-1 **/
+footer {
+    color: gray;
+    height: 584px;
+    background-color: black;
+
+}
+
+footer h5 {
+    margin-top: 90px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    font-size: 21px;
+    margin-left: 28px;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer a:hover{
+    color:rgba(255, 255, 255, 0.7);
+}
+footer ul li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer ul li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul {
+    margin-top: 50px;
+    line-height: 35px;
+}
+
+footer h4 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.dropdown2 {
+    margin-left: 30px;
+}
+
+#segunda-columna {
+    margin-top: 180px;
+}
+
+.tercera-columna {
+    margin-top: 180px;
+}
+
+/** FIN FOOTER-1 **/
+
+/** /////////////////////////////// PAGINA LOGIN ///////////////////////////////////**/
+
+.arriba-login {
+    background-size: cover;
+    background-image: url(../img/fondo-arriba.png);
+    height:920px;
+    width: auto;
+    background-position: center;
+}
+
+.login{
+    background-color: rgba(0,0,0,.75);
+    height: 660px;
+    width: 450px!important;
+    padding: 60px 68px 40px;
+    text-align: center;
+
+}
+
+#title{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: -140px;
+}
+
+#bandera img{
+    width: 15px;
+    position: relative;
+    margin-left: -90px;
+}
+#bandera span{
+    font-size: 12px;
+    color: gray;
+}
+#bandera #user{
+    padding: 7px;
+    font-size: 13px;
+    width: 314px;
+    height: 50px;
+    margin-left: -30px;
+    margin-top: 30px;
+    background-color: #333;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
+#passwords #password{
+    padding: 7px;
+    font-size: 13px;
+    width: 314px;
+    height: 50px;
+    background-color: #333;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.boton-sesion button{
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 7px;
+    width: 314px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 24px 0 12px;
+}
+
+.checkbox{
+    color: white;
+    display: flex;
+}
+.checkbox label{
+    margin-left: 50px;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.checkbox #link-ayuda{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: -80px;
+    padding-left: 130px;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.texto-inicio h4{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 68px;
+}
+
+.texto-inicio a{
+    color: white;
+    text-decoration: none;
+}
+.texto-inicio a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.parrafo-final p{
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-top: 11px;
+    width: 310px;
+    margin-left: 60px;
+}
+
+
+
+/** /////////////////////////////// FOOTER LOGIN ///////////////////////////////////**/
+
+
+.footer2 {
+    color: #757575;
+    height: 584px;
+    background-color: rgba(0,0,0,.75);
+    margin-top: 80px;
+    font-size: 14px;
+
+}
+
+.footer2 h5{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** /////////////////////////////// MEDIA QUERY ///////////////////////////////////**/
+
+@media (max-width: 375px) {
+
+    nav .navbar-brand img {
+        width: 95px;
+    }
+    
+    #titulo1 {
+        font-size: 2rem;
+    }
+
+    #titulo2 {
+        font-size: 1.125rem;
+    }
+    #contenido{
+        margin-top:80px;
+    }
+  }
